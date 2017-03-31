@@ -1,0 +1,6 @@
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_Diccionary\Ejercicio_Diccionary\bin\Debug\Ejercicio_Diccionary.exe.config
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_Diccionary\Ejercicio_Diccionary\bin\Debug\Ejercicio_Diccionary.exe
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_Diccionary\Ejercicio_Diccionary\bin\Debug\Ejercicio_Diccionary.pdb
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_Diccionary\Ejercicio_Diccionary\obj\Debug\Ejercicio_Diccionary.csprojResolveAssemblyReference.cache
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_Diccionary\Ejercicio_Diccionary\obj\Debug\Ejercicio_Diccionary.exe
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_Diccionary\Ejercicio_Diccionary\obj\Debug\Ejercicio_Diccionary.pdb

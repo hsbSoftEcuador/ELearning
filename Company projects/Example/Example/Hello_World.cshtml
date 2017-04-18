@@ -1,0 +1,61 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Hello</title>
+</head>
+<body>
+    <form action="" method="post">
+        @{
+            string strExample = "This is an example of razor";
+        }
+
+            @functions{
+            public double Sum (double d1, double d2)
+            {
+                double dSum = d1 + d2;
+            
+                return dSum;
+            }
+        }
+        <p> The message is: @strExample</p>
+        <p>Insert factor to increase:</p>
+
+        @{ double dFactor = 0;}
+
+        <input type="text" name="txtFactor" value="@Request.Form["txtFactor"]" />
+
+        @{
+            if (IsPost)
+            {
+                dFactor = Request["txtFactor"].AsFloat();
+                double dResult = 0;
+                for (int i = 0; i < 3; i++)
+                {
+                    dResult += i * dFactor;
+                    <p> Acumulated value : @dResult</p>
+                }
+
+            }
+            else
+            {
+                
+                //@Html.TextBox("txtFactor", "0");
+            }
+
+            <p> This app was run at this time: @DateTime.Now</p>
+            <p> The Temp path in this machine is: @Path.GetTempPath()</p>
+            <p> The File path of this app is: @System.Reflection.Assembly.GetExecutingAssembly().Location</p>
+        }
+    </form>
+    <div>
+
+    </div>
+</body>
+
+</html>

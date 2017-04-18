@@ -1,0 +1,6 @@
+C:\Users\hsbUser\Desktop\MARCELO\SwitchhsbPhoenixAddin\SwitchhsbPhoenixAddin\bin\Release\SwitchhsbPhoenixAddin.exe.config
+C:\Users\hsbUser\Desktop\MARCELO\SwitchhsbPhoenixAddin\SwitchhsbPhoenixAddin\bin\Release\SwitchhsbPhoenixAddin.exe
+C:\Users\hsbUser\Desktop\MARCELO\SwitchhsbPhoenixAddin\SwitchhsbPhoenixAddin\bin\Release\SwitchhsbPhoenixAddin.pdb
+C:\Users\hsbUser\Desktop\MARCELO\SwitchhsbPhoenixAddin\SwitchhsbPhoenixAddin\obj\Release\SwitchhsbPhoenixAddin.exe
+C:\Users\hsbUser\Desktop\MARCELO\SwitchhsbPhoenixAddin\SwitchhsbPhoenixAddin\obj\Release\SwitchhsbPhoenixAddin.pdb
+C:\Users\hsbUser\Desktop\MARCELO\SwitchhsbPhoenixAddin\SwitchhsbPhoenixAddin\obj\Release\SwitchhsbPhoenixAddin.csprojResolveAssemblyReference.cache

@@ -1,0 +1,17 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="f1fd8c13-fa29-41d5-8f1e-447abd143177" Version="1.0" Language="en-US" Publisher="HsbCad" />
+    <DisplayName>VSIncrease_DataBank_Version</DisplayName>
+    <Description>This button will increase the version of an application in addition to upload that application to TortoiseHG</Description>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.12.0" DisplayName="Visual Studio MPF 12.0" Version="[12.0]" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="VSIncrease_Databank_Version.pkgdef" />
+  </Assets>
+</PackageManifest>

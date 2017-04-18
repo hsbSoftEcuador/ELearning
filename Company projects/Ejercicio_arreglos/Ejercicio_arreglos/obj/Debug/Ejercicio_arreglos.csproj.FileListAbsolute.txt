@@ -1,0 +1,6 @@
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_arreglos\Ejercicio_arreglos\bin\Debug\Ejercicio_arreglos.exe.config
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_arreglos\Ejercicio_arreglos\bin\Debug\Ejercicio_arreglos.exe
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_arreglos\Ejercicio_arreglos\bin\Debug\Ejercicio_arreglos.pdb
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_arreglos\Ejercicio_arreglos\obj\Debug\Ejercicio_arreglos.csprojResolveAssemblyReference.cache
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_arreglos\Ejercicio_arreglos\obj\Debug\Ejercicio_arreglos.exe
+C:\Users\hsbUser\Desktop\MARCELO\Ejercicio_arreglos\Ejercicio_arreglos\obj\Debug\Ejercicio_arreglos.pdb

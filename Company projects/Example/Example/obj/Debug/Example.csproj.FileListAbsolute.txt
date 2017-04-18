@@ -1,0 +1,6 @@
+C:\Users\hsbUser\Desktop\MARCELO\Example\Example\bin\Example.dll.config
+C:\Users\hsbUser\Desktop\MARCELO\Example\Example\bin\Example.dll
+C:\Users\hsbUser\Desktop\MARCELO\Example\Example\bin\Example.pdb
+C:\Users\hsbUser\Desktop\MARCELO\Example\Example\obj\Debug\Example.csprojResolveAssemblyReference.cache
+C:\Users\hsbUser\Desktop\MARCELO\Example\Example\obj\Debug\Example.dll
+C:\Users\hsbUser\Desktop\MARCELO\Example\Example\obj\Debug\Example.pdb

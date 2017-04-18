@@ -1,0 +1,4 @@
+C:\Users\hsbUser\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\HsbCad\VSIncrease_Databank_Version\1.0\\VSIncrease_Databank_Version.dll
+C:\Users\hsbUser\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\HsbCad\VSIncrease_Databank_Version\1.0\\VSIncrease_Databank_Version.pkgdef
+C:\Users\hsbUser\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\HsbCad\VSIncrease_Databank_Version\1.0\\extension.vsixmanifest
+C:\Users\hsbUser\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\HsbCad\VSIncrease_Databank_Version\1.0\\VSIncrease_Databank_Version.pdb

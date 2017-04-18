@@ -1,0 +1,6 @@
+C:\Users\hsbUser\Desktop\MARCELO\Example_CSS\Example_CSS\bin\Example_CSS.dll.config
+C:\Users\hsbUser\Desktop\MARCELO\Example_CSS\Example_CSS\bin\Example_CSS.dll
+C:\Users\hsbUser\Desktop\MARCELO\Example_CSS\Example_CSS\bin\Example_CSS.pdb
+C:\Users\hsbUser\Desktop\MARCELO\Example_CSS\Example_CSS\obj\Debug\Example_CSS.dll
+C:\Users\hsbUser\Desktop\MARCELO\Example_CSS\Example_CSS\obj\Debug\Example_CSS.pdb
+C:\Users\hsbUser\Desktop\MARCELO\Example_CSS\Example_CSS\obj\Debug\Example_CSS.csprojResolveAssemblyReference.cache

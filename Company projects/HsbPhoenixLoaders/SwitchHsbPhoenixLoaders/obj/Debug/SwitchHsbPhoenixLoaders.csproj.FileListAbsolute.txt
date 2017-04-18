@@ -1,0 +1,6 @@
+C:\Users\hsbUser\Desktop\MARCELO\HsbPhoenixLoaders 1\SwitchHsbPhoenixLoaders\obj\Debug\SwitchHsbPhoenixLoaders.csprojResolveAssemblyReference.cache
+C:\Users\hsbUser\Desktop\MARCELO\HsbPhoenixLoaders 1\SwitchHsbPhoenixLoaders\bin\Debug\SwitchHsbPhoenixLoaders.exe.config
+C:\Users\hsbUser\Desktop\MARCELO\HsbPhoenixLoaders 1\SwitchHsbPhoenixLoaders\bin\Debug\SwitchHsbPhoenixLoaders.exe
+C:\Users\hsbUser\Desktop\MARCELO\HsbPhoenixLoaders 1\SwitchHsbPhoenixLoaders\bin\Debug\SwitchHsbPhoenixLoaders.pdb
+C:\Users\hsbUser\Desktop\MARCELO\HsbPhoenixLoaders 1\SwitchHsbPhoenixLoaders\obj\Debug\SwitchHsbPhoenixLoaders.exe
+C:\Users\hsbUser\Desktop\MARCELO\HsbPhoenixLoaders 1\SwitchHsbPhoenixLoaders\obj\Debug\SwitchHsbPhoenixLoaders.pdb

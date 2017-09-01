@@ -124,5 +124,17 @@
   <ItemGroup>
     <Resource Include="Images\Reports.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Package manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\License report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\License maintenance report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Customers office packages.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -112,7 +112,7 @@
                     </Grid.ColumnDefinitions>
                     <Image Source="Images\Package.png" Grid.Column="0" Height="40" Width="40"/>
                     <TextBlock Grid.Column="1" Margin="5" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <Run Text="Packages"/>
+                        <Run Text="Commit test"/>
                     </TextBlock>
                 </Grid>
                 <Label.ContextMenu>

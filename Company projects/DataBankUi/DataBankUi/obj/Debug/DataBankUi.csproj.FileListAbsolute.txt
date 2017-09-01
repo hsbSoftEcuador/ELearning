@@ -26,6 +26,7 @@ C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.cspr
 C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.csproj.CoreCompileInputs.cache
 C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.exe
 C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.pdb
+<<<<<<< HEAD
 C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\DataBankUi.exe
 C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\DataBankUi.pdb
 C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.csprojResolveAssemblyReference.cache
@@ -40,3 +41,17 @@ C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBank
 C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.csproj.CoreCompileInputs.cache
 C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.exe
 C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.pdb
+=======
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\App.g.cs
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi_MarkupCompile.cache
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\DataBankUi.exe
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\DataBankUi.pdb
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\MainWindow.g.cs
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi_MarkupCompile.lref
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\MainWindow.baml
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.g.resources
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.Properties.Resources.resources
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.csproj.GenerateResource.Cache
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.exe
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.pdb
+>>>>>>> 978e7166f91e5997d9b3175fd5758bd9cbb82bfb

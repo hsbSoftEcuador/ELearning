@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\
+=======
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\
+>>>>>>> 978e7166f91e5997d9b3175fd5758bd9cbb82bfb
 DataBankUi
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\App.xaml
+=======
+C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\App.xaml
+>>>>>>> 978e7166f91e5997d9b3175fd5758bd9cbb82bfb
 11151548125
 
 5-2017746502

@@ -1,0 +1,28 @@
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\bin\Debug\DataBankUi.exe
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\bin\Debug\DataBankUi.pdb
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\DataBankUi.csprojResolveAssemblyReference.cache
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\MainWindow.g.cs
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\App.g.cs
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\DataBankUi_MarkupCompile.cache
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\DataBankUi_MarkupCompile.lref
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\MainWindow.baml
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\DataBankUi.g.resources
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\DataBankUi.Properties.Resources.resources
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\DataBankUi.csproj.GenerateResource.Cache
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\DataBankUi.csproj.CoreCompileInputs.cache
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\DataBankUi.exe
+C:\Users\babyb\Desktop\Marce\Fase practica (Empresa)\DataBankUi\DataBankUi\obj\Debug\DataBankUi.pdb
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\bin\Debug\DataBankUi.exe
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\bin\Debug\DataBankUi.pdb
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.csprojResolveAssemblyReference.cache
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\MainWindow.g.cs
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\App.g.cs
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi_MarkupCompile.cache
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi_MarkupCompile.lref
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\MainWindow.baml
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.g.resources
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.Properties.Resources.resources
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.csproj.GenerateResource.Cache
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.csproj.CoreCompileInputs.cache
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.exe
+C:\Users\hsbUser\Desktop\hsbWork\DataBankUi\DataBankUi\obj\Debug\DataBankUi.pdb

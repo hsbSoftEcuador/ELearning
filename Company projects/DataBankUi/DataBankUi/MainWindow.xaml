@@ -1,0 +1,202 @@
+﻿<Window x:Class="DataBankUi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBankUi"
+        mc:Ignorable="d"
+        Title="DataBank" Height="600" Width="1050" MinHeight="600" MinWidth="1050" Icon="Images\DataBank logo.png">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Expander></Expander>
+            <Label x:Name="lblFingerprints" Grid.Row="0" Margin="10,20,10,20" MinHeight="50" MinWidth="100">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="Images\Fingerprint.png" Grid.Column="0" Height="40" Width="40"/>
+                    <TextBlock Grid.Column="1" Margin="5" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Run Text="Fingerprints"/>
+                    </TextBlock>
+                </Grid>
+                <Label.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Create FP">
+                            <MenuItem.Icon>
+                                <Image Source="Images\AddFingerprint.png"/>
+                            </MenuItem.Icon>
+                            <MenuItem Header="New window" Click="HelloWorld">
+                                <MenuItem.Icon>
+                                    <Image Source="Images\Context menu icon 1.png"/>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                        </MenuItem>
+                        
+                        <MenuItem Click="Add" Header="Find FP">
+                            <MenuItem.Icon>
+                                <Image Source="Images\FindFingerprint.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </Label.ContextMenu>
+            </Label>
+
+            <Label x:Name="lblLicensing" Grid.Row="1" Margin="10,20,10,20" MinHeight="50" MinWidth="100">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="Images\License.png" Grid.Column="0" Height="40" Width="40"/>
+                    <TextBlock Grid.Column="1" Margin="5" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Run Text="Licensing"/>
+                    </TextBlock>
+                </Grid>
+                <Label.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="New">
+                            <MenuItem.Icon>
+                                <Image Source="Images\Context menu icon 1.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Click="Add" Header="Create new licenses">
+                            <MenuItem.Icon>
+                                <Image Source="Images\Add license.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Click="Add" Header="Licenses administrator">
+                            <MenuItem.Icon>
+                                <Image Source="Images\License administrator.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Click="Add" Header="Licenses">
+                            <MenuItem.Icon>
+                                <Image Source="Images\Licenses.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Click="Add" Header="Licenses mantenaice">
+                            <MenuItem.Icon>
+                                <Image Source="Images\License maintenance.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </Label.ContextMenu>
+            </Label>
+
+            <Label x:Name="lblPackages" Grid.Row="2"  Margin="10,20,10,20" MinHeight="50" MinWidth="100">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="Images\Package.png" Grid.Column="0" Height="40" Width="40"/>
+                    <TextBlock Grid.Column="1" Margin="5" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Run Text="Packages"/>
+                    </TextBlock>
+                </Grid>
+                <Label.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="New">
+                            <MenuItem.Icon>
+                                <Image Source="Images\Context menu icon 1.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Click="Add" Header="Add to favorites">
+                            <MenuItem.Icon>
+                                <Image Source="Images\Context menu icon 2.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </Label.ContextMenu>
+            </Label>
+
+            <Label x:Name="lblCustomers" Grid.Row="3"  Margin="10,20,10,20" MinHeight="50" MinWidth="100">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="Images\Customers.png" Grid.Column="0" Height="40" Width="40"/>
+                    <TextBlock Grid.Column="1" Margin="5" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Run Text="Customers"/>
+                    </TextBlock>
+                </Grid>
+                <Label.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Click="Add" Header="License report">
+                            <MenuItem.Icon>
+                                <Image Source="Images\Context menu icon 2.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </Label.ContextMenu>
+            </Label>
+
+            <Label x:Name="Button5" Grid.Row="4"  Margin="10,20,10,20" MinHeight="50" MinWidth="100">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="Images\Reports.png" Grid.Column="0" Height="40" Width="40"/>
+                    <TextBlock Grid.Column="1" Margin="5" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Run Text="Reports"/>
+                    </TextBlock>
+                </Grid>
+                <Label.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="New">
+                            <MenuItem.Icon>
+                                <Image Source="Images\Context menu icon 1.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator/>
+                        <MenuItem Click="Add" Header="Add to favorites">
+                            <MenuItem.Icon>
+                                <Image Source="Images\Context menu icon 2.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </ContextMenu>
+                </Label.ContextMenu>
+            </Label>
+
+        </Grid>
+
+        <ToolBarTray Grid.Row="0" Grid.ColumnSpan="2" Height="40">
+            <ToolBar x:Name="toolbar">
+                <Button MouseMove="customize" Width="40" Height="40" Content="A"/>
+                <Button MouseMove="customize" Width="40" Height="40" Content="B"/>
+                <Button MouseMove="customize" Width="40" Height="40" Content="C"/>
+                <Button MouseMove="customize" Width="40" Height="40" Content="D"/>
+                <Button MouseMove="customize" Width="40" Height="40" Content="E"/>
+                <Button MouseMove="customize" Width="40" Height="40" Content="F"/>
+                <Button MouseMove="customize" Width="40" Height="40" Content="G"/>
+                <Button MouseMove="customize" Width="40" Height="40" Content="H"/>
+                <Button MouseMove="customize" Width="40" Height="40" Content="I"/>
+                <Button MouseMove="customize" Width="40" Height="40" Content="J"/>
+            </ToolBar>
+        </ToolBarTray>
+    </Grid>
+</Window>

@@ -6,29 +6,34 @@
         xmlns:local="clr-namespace:DataBankUi"
         mc:Ignorable="d"
         Title="DataBank" Height="600" Width="1050" MinHeight="600" MinWidth="1050" Icon="Images\DataBank logo.png">
-    <Grid>
+    
+        <Grid>
 
-        <Grid.RowDefinitions>
+            <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="150"/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Row="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
+        <Grid Grid.Column="1" Grid.Row="1" Background="LightGray">
+        </Grid>
 
+        <Expander Grid.Column="0" Grid.Row="1" ExpandDirection="Right">  
             
-            <Label x:Name="lblFingerprints" Grid.Row="0" Margin="10,20,10,20" MinHeight="50" MinWidth="100">
+        <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Label x:Name="lblFingerprints" Grid.Row="0" Margin="10,20,10,20" MinHeight="50" MinWidth="100">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -154,36 +159,36 @@
                 </Label.ContextMenu>
             </Label>
 
-            <Label x:Name="Button5" Grid.Row="4"  Margin="10,20,10,20" MinHeight="50" MinWidth="100">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Source="Images\Reports.png" Grid.Column="0" Height="40" Width="40"/>
-                    <TextBlock Grid.Column="1" Margin="5" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Label x:Name="Button5" Grid.Row="4"  Margin="10,20,10,20" MinHeight="50" MinWidth="100">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="Images\Reports.png" Grid.Column="0" Height="40" Width="40"/>
+                        <TextBlock Grid.Column="1" Margin="5" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Run Text="Reports"/>
-                    </TextBlock>
-                </Grid>
-                <Label.ContextMenu>
-                    <ContextMenu>
-                        <MenuItem Header="New">
-                            <MenuItem.Icon>
-                                <Image Source="Images\Context menu icon 1.png"/>
-                            </MenuItem.Icon>
-                        </MenuItem>
-                        <Separator/>
-                        <MenuItem Click="Add" Header="Add to favorites">
-                            <MenuItem.Icon>
-                                <Image Source="Images\Context menu icon 2.png"/>
-                            </MenuItem.Icon>
-                        </MenuItem>
-                    </ContextMenu>
-                </Label.ContextMenu>
-            </Label>
-
-        </Grid>
-
+                        </TextBlock>
+                    </Grid>
+                    <Label.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="New">
+                                <MenuItem.Icon>
+                                    <Image Source="Images\Context menu icon 1.png"/>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                            <Separator/>
+                            <MenuItem Click="Add" Header="Add to favorites">
+                                <MenuItem.Icon>
+                                    <Image Source="Images\Context menu icon 2.png"/>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                        </ContextMenu>
+                    </Label.ContextMenu>
+                </Label>
+            </Grid>
+        </Expander>
+            
         <ToolBarTray Grid.Row="0" Grid.ColumnSpan="2" Height="40">
             <ToolBar x:Name="toolbar">
                 <Button MouseMove="customize" Width="40" Height="40" Content="A"/>
@@ -199,4 +204,5 @@
             </ToolBar>
         </ToolBarTray>
     </Grid>
+
 </Window>

@@ -27,7 +27,7 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <Expander></Expander>
+            
             <Label x:Name="lblFingerprints" Grid.Row="0" Margin="10,20,10,20" MinHeight="50" MinWidth="100">
                 <Grid>
                     <Grid.ColumnDefinitions>

@@ -1,0 +1,1350 @@
+;;; Lines starting with ";;;" will not be shown.
+;;; Add new entries on top.
+;;; Start a new entry with a line starting with "|| ".
+;;; This line will be boldfaced.
+;;; '||~' line will be bold and colored blue
+LS:
+||~31-Apr-2017 EXTENDING THE 'TEMPORAL LICENSE MAINTENANCE PERIOD' FOR NEW LICENSES CREATED FROM THE NEW 'LICENSES CREATOR' DIALOG TO 14 DAYS.
+
+LS:
+||~30-May-2017 ADDING THE NEW 'hsbWeyerhaeuserBimXmlImport' AND 'hsbWeyerhaeuserPmdExport' MODULES TO THE HSBUSERFP DATABASE.
+
+LS:
+||~30-May-2017 FIXING THE QUERY TO FIND CUSTOMERS.
+- The customers who did not have any license were not gotten in the query. It is fixed now.
+
+LS:
+||~10-May-2017 IMPROVING THE 'Find Customers' DIALOG TO FIND CUSTOMERS BY LICENSE ID.
+
+LS:
+||~8-May-2017 IMPROVING THE 'Customers permissions for Products' DIALOG TO FIND SOFTWARE PERMISSIONS FOR CUSTOMER PRODUCTS PER LICENSE ID.
+
+LS:
+||~3-May-2017 THE DISPLAY NAME OF THE 'Untested Service Release' VERSIONS WILL CHANGE TO 'Service Release' IN ORDER TO PROMOTE THEIR USE.
+
+- The 'Service Release' versions are Release versions with adjustments required to the current features that are part of the previous 'Release' versions. When these adjustments are completed to a set of features, a new 'Release' version is created.
+
+- The adjustments to the 'Release' versions that are part of the 'Service Release' versions can be considered as improvements to versions already released.
+
+LS:
+||~25-Apr-2017 ADDING 'TEMPORAL LICENSE MAINTENANCE PERIOD' FOR NEW LICENSES CREATED FROM THE NEW 'LICENSES CREATOR' DIALOG.
+
+- If you create new licenses from the new 'Licenses Creator' dialog, those licenses are going to include a temporal license maintenance period of 7 days to be allowed to download installers.
+
+- This new feature is going to allow that new customers can access to the hsbDownloadCenter to download the product installers without requiring that the hsbDataBank user assigns before the license maintenance period manually.
+
+- The real license maintenance period is assigned automatically when the customer activates the license through the 'hsbcad License Registrator'.
+
+- This feature will save some time from the hsbDataBank users.
+
+LS:
+||~20-Feb-2017 ADDING hsbRvtClt AND hsbRvtSip MODULES TO hsbonrevit22.
+
+LS:
+||~10-Feb-2017 FORCING TO USE NEW FTP CONNECTION SETTINGS TO UPLOAD FILES.
+
+LS:
+||~27-Jan-2017 ADJUSTING FTP SETTINGS TO UPLOAD CUSTOMER FILES.
+
+LS:
+||~26-Jan-2017 CREATING SPECIFIC SETTINGS TO FTP CONNECTIONS.
+
+LS:
+||~26-Jan-2017 REMOVING THE ACCESS TO DOWNLOAD OR UPLOAD THE DATABASE DIRECTLY.
+
+LS:
+||~26-Jan-2017 THE SENT OF DATABANK EMAILS THAT ICLUDE FINGERPRINTS USE OTHER INTERNAL ACCOUNT.
+
+LS:
+||~23-Nov-2016 THE EULA VIEWER USED TO SHOW THE LICENSING AGREEMENTS WILL CREATE THE 'hsbcad' FOLDER IN THE '..\Users\[Username]\AppData\Local\' FOLDER TO SAVE THE 'HsbLicensingAgreements.xml' FILE WHEN THE FOLDER DOES NOT EXIST.
+
+LS:
+||~29-Nov-2016 SETTING 'ACTIVATION CODE' IN MESSAGES INSTEAD OF 'BASE CODE'.
+
+LS:
+||~11-Nov-2016 PREPARING HSBDATABANK TO MIGRATE OUR ONLINE RESOURCES TO A NEW WEB HOSTING.
+
+- The references to www.hsb-cad.com resources have been updated to be read from the ConnectionsManager xml file through of the hsbUtils dll.
+
+LS:
+||~19-Sep-2016 THE 'hsbCadForVrez' MODULE HAS BEEN ADDED TO 'hsbcad20' AND 'hsbcad21'.
+
+LS:
+||~8-Aug-2016 THE 'EXPORT TO EXCEL' OPTION IN THE 'LICENSES REPORT DIALOG' ADDS A NEW SETTING TO COUNT AND DISPLAY ONLY SELECTED MODULES WHEN YOU GENERATE THE EXCEL REPORT
+
+- The option to 'Export to Excel' the licenses queried in the Licenses Report dialog includes a setting to count and display only selected modules. It allows to filter the modules that are not relevant from the Excel report.
+
+LS:
+||~4-Aug-2016 THE LAST LICENSES FILTERS USED FOR QUERIES IN THE LICENSES REPORT DIALOG CAN BE SAVED
+
+- If you enable the "Load last used 'Licenses Report Filters' at startup" option in the Licenses Report dialog, the last filters used to query licenses data will be saved and loaded automatically the next time that you open this dialog.
+
+LS:
+||~4-Aug-2016 THE LICENSES REPORT QUERY HAS BEEN ADJUSTED
+
+- The queries that include the FPSearchState have been optimized.
+
+LS:
+||~3-Aug-2016 THE LICENSES FILTERS USED FOR QUERIES IN THE LICENSES REPORT DIALOG CAN BE SAVED AND LOADED IN AND FROM JSON FILES
+
+- There is a new feature to save license filters used in the queries of the Licenses Report dialog.
+- The license filters are saved in JSON files. These JSON files can be used later to load predefined filters in the same machine or in other machines.
+- The license filters can be cleraed to use other filters.
+
+LS:
+||~3-Aug-2016 THE LICENSES REPORT QUERY THAT INCLUDES LICENSE MAINTENANCE FILTERS HAS BEEN ENHANCED
+
+- The queries done from the Licenses Report dialog have been enhanced to cases where the license maintenance filters are used.
+
+LS:
+||~4-Jul-2016 LANG FILES TO DEUTSCH AND ITALIAN LANGUAGES UPDATED
+
+LS:
+||~1-Jun-2016 THE END USER LICENSE AGREEMENT WILL BE SHOWN WHEN YOU START HSBDATABANK
+
+- The EULA will be show when you start hsbDataBank. You must Accept it to continue. In that case the EULA will not be shown again at least it changes in the future.
+- If you decline the EULA, the hsbDataBank will not start. The EULA will be shown always you try to start the hsbDataBank until you accept it.
+
+LS:
+||~18-May-2016 BUGFIX - LICENSE STATUS BY FINGERPRINTS HAS BEEN ADJUSTED TO SHOW LICENSES WHICH DO NOT HAVE ANY FINGERPRINT
+
+LS:
+||~18-May-2016 BUGFIX - LICENSE STATUS BY FINGERPRINTS HAS BEEN ADJUSTED TO SHOW LICENSES WHICH DO NOT HAVE ANY FINGERPRINT
+
+LS & DR:
+||~30-Mar-2016 LICENSE STATUS BY FINGERPRINT DISPLAYED ON LICENSE ADMINISTRATOR DIALOG
+
+- FogBugzId 2764
+
+LS:
+||~2-Dec-2015 THE 'LICENSES LIST VIEW' CONTAINS MORE FILEDS IN THE 'LICENSES ADMINISTRATOR' DIALOG
+
+LS:
+||~2-Dec-2015 THE AUTOMATIC TRIGGER OF THE 'LICENSE AUTHORIZATIONS MANAGER' HAS BEEN REMOVED
+
+LS:
+||~23-Oct-2015 THE NEW 'hsbLooseMaterials' MODULE HAS BEEN ADDED TO 'hsbcad2015' and 'hsbcad2016' PRODUCTS
+
+- FogBugzId 1627: The new hsbLooseMaterials module has been added to our HsbUserFP databases for hsbcad2015 and hsbcad2016. That module is independent. The zip files Hsb_Lang.zip, Hsb_NetAC.zip, and Hsb_utilitioes.zip have been attached to this module.
+
+LS:
+||~01-Oct-2015 THE OPTIONS TO SET THE LICENSE TYPE OR LICENSE RESTRICTION TYPE PROPERTIES OF A LICENSE AS EMPTY HAVE BEEN ADDED IN THE NEW LICENSES ADMINISTRATOR DIALOG
+
+LS:
+||~24-Sep-2015 THE 'LICENSES CREATOR' DIALOG INCLUDES THE OPTION TO SHOW AND/OR COPY MODULES FROM OTHER EXISTING CUSTOMER LICENSES
+- The 'Licenses Creator' dialog inculdes new options to check other existing licenses that belong to the current customer, show modules from any of those licenses, and copy modules from any of those licenses to the new license to be created.
+
+LS:
+||~3-Jul-2015 NEW ICON AND TOOL BAR OPTION FOR CUSTOMERS BY PACKAGES REPORT
+
+LS:
+||~3-Jul-2015 REBUILD VERSION OF HSBDATABANK WITH SOLUTION TO GENERATE EXCEL REPORTS WITH FINGERPRINT INFORMATION
+
+LS:
+||~23-Jun-2015 THE TIMEOUT TO QUERY INFORMATION IN THE WEB DATABASE HAS BEEN INCREASED IN ORDER TO AVOID TIMEOUTS
+
+LS:
+||~23-Jun-2015 THE LICENSES ADMINISTRATOR DIALOG AND LICENSES CREATOR DIALOG INCLUDE OPTIONS TO RESIZE LICENSES, LICENSES INFORMATION, PACKAGES, AND OFFICES
+- These dialogs have now the option to resize the lists to check licenses, packages, and modules. Also, the Licenses Administrator dialog has the option resize the License Properties. 
+It allows to check information as you need.
+
+LS:
+||~17-Jun-2015 NEW CUSTOMERS BY PACKAGES REPORT HAS BEEN CREATED. - IT IS IN BETA PERIOD
+- This new report is oriented to check customers who have certain packages with filters for offices and packages.
+
+LS:
+||~8-Jun-2015 NEW BUGFIX TO CREATE SEVERAL LICENSES FROM THE LICENSES CREATOR DIALOG.
+- The creation of licenses is working fine again. The issue came from the generation of license creation codes which were being duplicated at generation time.
+
+LS:
+||~4-Jun-2015 BUGFIX TO CREATE SEVERAL LICENSES FROM THE LICENSES CREATOR DIALOG.
+
+The Licenses Creator dialog was failing to create more than on license because of license ids repeated. The issue is fixed.
+
+LS:
+||~29-May-2015 THE 'hsbExcel' MODULE IS CHECKED WHEN THE 'IsLite' PROPERTY IS CHECKED FOR A LICENSE.
+
+The check of the hsbExcel module when the IsLite License Property is checked has been implemented.
+It has been added to the new Licenses Manager dialog and the old Licenses Administrator dialog.
+
+LS:
+||~25-May-2015 THE NEW 'hsbIfcExport' AND 'hsb3dPrintingPremium' MODULES HAVE BEEN CREATED.
+
+LS:
+||~13-Apr-2015 THE NEW 'hsbJasperReports, hsbProductionController, hsbProductionClient, hsbProductionManagement, and hsbBomLink' MODULES HAVE BEEN ADDED
+
+- hsbJasperReports module has been added to hsbCAD20.
+- hsbProductionController, hsbProductionClient, hsbProductionManagement, and hsbBomLink modules have been added to hsbCAD20 and hsbCAD19.
+
+- The next zip files have been added to the new modules.
+
+Hsb_BomLink.zip to hsbBomLink module
+Hsb_hsbController.zip to hsbProductionController module
+Hsb_hsbMS.zip to hsbProductionManagement module
+Hsb_hsbClient.zip to hsbProductionClient module
+
+In addition to these zip files. The zip files Lang.zip and NetAC.zip have been attached to each of these modules.
+
+LS:
+||~12-Mar-2015 INFORMATION: THE NEW 'LICENSES CREATOR DIALOG' AND 'LICENSES ADMINISTRATOR DIALOG' SHOULD BE USED BY HSBCAD OFFICES TO CREATE AND EDIT HSB LICENSES INSTEAD OF THE OLD 'LICENSE ADMINISTARTOR DIALOG'.
+
+- The new dialogs to administrate licenses should be used by hsbCAD offices.
+
+- The old 'License Administrator' dialog should be used by ITW people.
+
+LS:
+||~12-Mar-2015 BUG FIX TO CREATE LICENSES FROM THE OLD 'LICENSES ADMINISTRATOR DIALOG''
+
+- If you created licenses from the old licenses dialog, the modules were not assigned because the license Id of the new license was not recovered.
+
+- This bugfix solves that issue.
+
+LS && DR:
+||~3-Mar-2015 THE EXPORT TO EXCEL FROM LICENSES REPORT HAS BEEN IMPROVED WITH FINGERPRINT DATA
+
+- The Export to Excel Report from the Licenses Report dialog includes the option to generate fingerprint data as part of the report. A question is done to know if fingerprint data is required as part of the report.
+If the fingerprint data is required, three columns are added to the report ('MAILS(s)', 'COMPUTER NAME', and 'COMPUTER USERNAME'). This data is useful to see who and from where place the licenses are used.
+- The generation of fingerprint data is done in the server and transfered by an xml file to save time.
+
+LS:
+||~7-Feb-2015 THE NEW LICENSES ADMINISTRATOR DIALOG INCLUDES A NEW OPTION TO LOAD CUSTOMER LICENSES BASED ON A LICENSE ID
+
+- This option is useful to load licenses data based on a license id when the customer name is not remembered.
+- Using this option the customer name associated to the License Id is loaded, and all of his licenses are loaded.
+- The License Id which is used to load the data is used to select the current license. It allows to edit data of the referenced license directly.
+
+LS:
+||~28-Jan-2015 THE LICENSES CREATOR AND LICENSES ADMINISTRATOR DIALOGS HAVE BEEN IMPROVED WITH A CONTROL TO INSERT THE LAST VERSION ALLOWED IN AN EASIEST WAY.
+
+LS:
+||~23-Jan-2015 THE NEW 'Licenses Creator Dialog' IS IN TEST PERIOD (ONLY TEST USERS SHOULD USE THIS DIALOG FOR NOW)
+
+- This dialog allows to create one or more licenses to a specific customer and one activation code per license in one step. 
+
+The activation codes are created only if the License data includes Automatic Activation. By default the Automatic Activation is enabled.
+
+- The process to create multiple licenses and activation codes creates an automatic email with the user, password, license ids, and activation codes to send by mail to the customer.
+
+- Two new document files have been created to prepare the email to send the information about new licenses and activation codes. Both files are part of the Lang folder located inside of the hsbDataBank Installation Path.
+
+- The new document files are 'NewLicenseActivationsInfo_Subject.txt' for the Subject and 'NewLicenseActivationsInfo_Body' for the Body.
+
+- The hsbDataBank users must create their own versions of the files mentioned before for their language and purposes. Those new files must be set in the specific language folder inside of the hsbdataBank. It works in the same way that we do with other document files.
+
+LS:
+||~13-Jan-2015 THE NEW 'Licenses Administrator Dialog' IS IN TEST PERIOD (ONLY TEST USERS SHOULD USE THIS DIALOG FOR NOW)
+
+The Packages concept has been introduced. A Package is associated to a list of modules.
+
+The new Licenses Administrator Dialog includes the next features:
+
+- This dialog allows to check licenses by customer. A customer name must be introduced and the Enter key must be pressed to query the licenses associated to that customer.
+
+- The dialog allows to filter a specific customer license to do specific changes to that license.
+
+- The user can edit data and modules of different licenses.
+
+- The changes done to the licenses and modules can be saved to the data base or can be required to be saved if the user forgets to save.
+
+- The packages listed are based on the packages available to the customer's hsb office. (For example, if the customer belongs to the Belgium office, only the packages associated to that office are available to be selected.)
+
+- The packages selected are based on the modules selected.
+
+- The selection of a package selects the attached modules automatically if they are not already selected.
+
+- The dependences of modules are included. If you select a module that has parent modules, the parent modules are selected.
+
+- If you unselect a module that has child modules, the child modules are checked to see if they can be unselected. The child modules are unselected if they are not associated to other selected packages.
+
+- Multiple changes to the data base are saved in one data base transaction. If one change to the data base fails, the complete changes are reversed. It avoids inconsitencies with the data base. 
+
+LS:
+||~9-Jan-2015 THE NEW 'hsbMangoTechMWF' MODULE HAS BEEN ADDED
+
+LS:
+||~29-Sep-2014 HSBDATABANK HAS BEEN UPDATED TO CREATE REPORTS WITH SAP CRISTAL REPORTS 13.0.10
+
+LS:
+||~29-Sep-2014 HSBDATABANK SOLUTION HAS BEEN MOVED TO VS 2013 AND .NET FRAMEWORK 4.0
+
+LS:
+||~12-Mar-2014 THE NEW 'itwbRevitContentNA' MODULE HAS BEEN ADDED FOR 'hsbRevit2014' and 'hsbRevit2015'
+
+LS:
+||~11-Feb-2014 THE NEW 'itwbOptionsRevit' MODULE HAS BEEN ADDED FOR 'ITWRevitExtensions2014'
+
+LS:
+||~11-Feb-2014 BUG FIX TO QUERY LICENSE MODULES IN THE LICENSES ADMINISTRATOR DIALOG
+
+- There was an issue with query of license modules when Data Bank Users queried more than one license in the Licenses Administrator Dialog.
+
+- The first query for a particular license got the rigth modules. The subsequent queries did not get the modules for the next licenses and the modules for the first license continued being shown.
+
+- This bug fix solves this issue.
+
+LS:
+||~2-Dec-2013 THE NEW 'hsbStlOut' MODULE HAS BEEN ADDED FOR 'ITWhsbCAD2015'
+
+LS:
+||~25-Nov-2013 A BUG FIX FOR 'DATE FILTERS' HAS BEEN DONE TO THE 'LICENSES REPORT DIALOG'
+
+- When the Data Bank user queried licenses with date filters and the Date included a Month Name just as 'Nov' the query returned wrong results.
+
+- A bug fix has been done to parse those kind of dates correctly. This new version includes that solution.
+
+LS:
+||~21-Nov-2013 NEW 'RevitMMXPro' MODULE HAS BEEN ADDED
+
+- It works to:
+
+1. Use align command to lock it to a bearing level
+2. Pin the truss
+3. Copy one or more trusses
+4. Move one or more trusses
+5. Mirror one or more trusses
+
+- It depends on the 'hsbRevitMMIO' module.
+
+LS:
+||~17-Oct-2013 DATA BANK DIALOGS HAVE BEEN ADJUSTED TO DPI DISPLAY
+
+LS:
+||~17-Oct-2013 THE HEIGHT AND WIDTH OF SOME DIALOGS INCLUDING THE LICENSE DIALOG HAVE BEEN REDUCED TO ADJUST TO MONITORS WITH LOWER DISPLAY RESOLUTION
+
+- Only the 'Licenses Report' dialog continues being wide because of requirement to show a lot of filter fields.
+
+LS:
+||~16-Oct-2013 THE GENERATION OF ACTIVATION CODES HAS BEEN ADJUSTED WHEN YOU CREATE NEW LICENSES
+
+- The generation of activation codes when you create a new license has been modified to ask if you are going to create a license with Number of Available Authorizations for VRez on Acad or for an OEM product, or if you are going to create a common license without that feature.
+
+LS:
+||~23-Sep-2013 THE NEW 'hsbRandekSaw' MODULE HAS BEEN ADDED
+
+- This module protects a new exporter, present as dll inside the export/interfaces folder. There is no download folder associated with this module.
+The module is not dependent on any other module.
+
+LS:
+||~5-Sep-2013 THE REGISTRATION IN THE DATA BASE OF NEW FINGERPRINTS HAS BEEN ENHANCED
+
+- The registration in the data base of fingerprints created has been improved to generate fingerprint ids just when the new fingerprints are registered in the Data Base.
+
+- This solution avoids to have issues with the generation of fingerprints ids when some fingerprints are created at the same time from the hsbDataBank or from Online Activation processes.
+
+LS:
+||~31-Jul-2013 BUG FIX TO LICENSES REPORT
+
+- When there is no a 'Contract Limit Date' associated to a license, you can not save changes for that license because the read of 'Contract Limit Date' was causing an error.
+
+- It is solved with the bug fix.
+
+LS:
+||~31-Jul-2013 BUG FIX TO LICENSES REPORT
+
+- When you query licenses and select a license in the Licenses Report Dialog, it loads the fingerprints associated to the license automatically.
+
+If you sorted the licenses by any field and select any license, the fingerprints showed were wrong.
+
+The wrong fingerprints were associated to a license id that was in the same position of the selected license at the initial display of the query.
+
+This bugfix solves the issue.
+
+LS:
+||~16-Jun-2013 THE NEW 'CONTRACT LIMIT DATE' PROPERTY HAS BEEN ADDED FOR LICENSES
+
+- The new 'Contract Limit Date' field has been added for Licenses. 
+
+- The Licenses dialog has been modified to include this setting. Also, the Licenses Report dialog allow to modify this Property in an easy way for multiple licenses.
+
+- This setting will be used for licenses that are rent by a contract that has a limit date.
+
+LS:
+||~16-Jun-2013 A NEW OPTION TO SET THE SAME LICENSE MAINTENANCE DATE AS THE EXPIRATION DATE FOR A LICENSE HAS BEEN ADDED
+
+- The Licenses dialog will show an option to set the same license maintenance date as the expiration date for the license.
+
+- This setting has been added to the License Activation table in our Data Base to get that information when a customer activates a license Online.
+
+LS:
+||~16-Jun-2013 THE LICENSES DIALOG INCLUDES SUPPORT TO CHOOSE DIFFERENT TEMPLATES TO AUTOMATICALLY COMPOSE EMAIL SUBJECTS AND EMAIL BODIES TO SEND ACTIVATION CODES
+
+- hsbDataBank allows to include several templates to compose emails to send activation codes in order to activate customer's licenses.
+
+- The name of the templates must follow the next standard:
+
+The Subject files must be txt files and the Body files must be rtf files.
+
+The name of additional template files must start with the default file name.
+
+For example, a defult template file name is 'NewestLicenseActivationInfo_Subject.txt' and an additional template file name could be 'NewestLicenseActivationInfo_Subject For Revit.txt'
+
+- When you try to send an activation code by email for a customer, the Licenses dialog show a small dialog to select a template file if you have sevral template files.
+
+- The way to add custom template files continue being the same as before. You must include the template files in the 'Lang' folder of hsbDataBank. If you have a specific file for a language, you must include it in the specific folder for the language below the 'Lang' folder.
+
+LS:
+||~02-Jun-2013 NEW FINGERPRINT MODULES HAVE BEEN ADDED
+
+- The new modules 'ibElementBundler', 'hsbReplicatorBusiness', 'hsbReplicatorProfessional' have been added.
+
+- The 'hsbReplicatorBusiness' module depends on the 'hsbTimber' module.
+
+- The 'hsbReplicatorProfessional' module depends on the 'hsbReplicatorBusiness' module.
+
+LS:
+||~25-Jun-2013 NEW FEATURES
+
+- Support to include the ProductName as part of the Fingerprint information has been addded.
+
+- The email dialog to send activation codes sets the customer email address from previous request finger print in the case that it exists.
+
+- The FingerPrints information grid in the Licenses Report Dialog has been narrowed.
+
+LS:
+||~25-Jun-2013 NEW MODULES HAVE BEEN ADDED TO OUR DATA BASE
+
+- The new modules hsbHundeggerBvxBeam and hsbHundeggerBvxGuelam have been added.
+
+LS:
+||~25-Jun-2013 THE NAME OF SOME MODULES HAVE BEEN RENAMED IN OUR DATA BASE
+
+- The module hsbHundeggerKx has been renamed to hsbHundeggerBvnBeam
+
+- The module hsbHundeggerPba has been renamed to hsbHundeggerBvxSip
+
+- The module hsbHundeggerPx has been renamed to hsbHundeggerBvxSheet
+
+LS:
+||~23-May-2013 NEW FINGERPRINT DLLS WITH NEW MODULE FOR REVIT PRODUCTS
+
+- The new module 'itwbRevitConnectorPlatesImporter' has been added.
+
+LS:
+||~19-Sep-2012 FROM EMAIL ADRESS TO SEND ACA OEM REQUEST CODE AND REQUIRE ACA OEM ACTIVATION CODE HAS BEEN MODIFIED ACCORDING TO AUTODESK REQUIREMENT
+
+LS:
+||~17-Sep-2012 SMALL CHANGES TO HSBDATABANK
+
+- The License Maintenance Dialog shows if the Licenses are Inactive or no in the case that you require to modify the License Maintenance only for Licenses which are Active.
+
+- Restrictions to search Licenses, Customers, or License Maintennaces by Customer Names which include Numbers have been removed. 
+
+LS:
+||~17-Agu-2012 THE CUSTOMER FILES MANAGER UTILITY ALLOWS TO DOWNLOAD CUSTOMER ZIP FILES LOCATED ON THE SERVER TO CHECK THEM LOCALLY.
+
+LS:
+||~17-Agu-2012 NEW MODULES ADDED FOR HSBCAD18 AND HSBCAD19
+
+- The new modules "hsbFrameCAD", "VertexBDExport", and "JavelinExport" have been added in the Data Base and in the fingerprint dlls for hsbCAD18 and hsbCAD19.
+
+LS:
+||~16-Jun-2012 FIX FOR LICENSES REPORT.
+
+- If you queried and modified licenses which did not have a License Type or License Retsriction Type, the changes for those fields were not saved. This fix solves it.
+
+LS:
+||~22-Jun-2012 NEW FINGERPRINT DLLS FROM VC++ 2010.
+
+LS:
+||~31-May-2012 LICENSES MANAGER INCLUDES SUPPORT FOR NEW OEM AUTHORIZATION MECHANISM.
+
+- The Licenses Manager includes two new fields to register an Autodesk Request Code and an Autodesk Activation Code for each License which is registered with the new ADT OEM 2013 distributed by ITW. 
+Additionaly, there are two new buttons used to generate Emails to 'Request an Autodesk Activation Code From Autodesk' and 'Send an Autodesk Activation Code for Customer' for the OEM Licenses.
+Those buttons open mail forms where you can edit the messages. Also, you have a Subject file and a Body file to Edit the default messages that are part of the Emails. Those Subject and Body files are part of the Lang folder located inside of the hsbDataBank installation folder.
+
+LS:
+||~31-Jan-2012 HSBDATABANK USES SQL SENTENCES ENCODED TO DO SOME QUERIES TO THE DATA BASE ON WEB.
+
+- It allows to support Sql Sentences with special characters that query information of fingerprints on the Data Base through Web Services.
+
+LS:
+||~20-Jan-2012 HSBDATABANK HAS BEEN UPDATED TO USE FINGERPRINT DLLS WHICH USE VC++ 2008 DLLS.
+
+LS:
+||~20-Jan-2012 HSBDATABANK IS INSTALLED WITHOUT THE 'RUN AS ADMINISTRATOR' SETTING.
+
+- The 'Run As Administrator' option has been removed in order to allow the 'Drag & Drop' of Fingerprints to the manin window of the hsbDataBank.
+
+LS:
+||~4-Jan-2012 FINGERPRINT MANAGEMENT FUNCTIONALITY HAS BEEN IMPROVED
+
+- The Fingerprint Management functionallity has been improved to resolve issues of Hardware Keys that match from different PCs and customers.
+
+If the main Hardware Key from a Request Fingerprint matches to a Hardware key already registered in our Data base for other customer, license, and machine, the Fingerptint management will use other Hardware key from the list of Hardware Keys that the Request Fingerprint includes until it finds a unique Hardware Key for the customer, license, and machine.
+
+LS:
+||~21-Dec-2011 LICENSE AUTHORIZATION MANAGER DIALOG HAS BEEN FIXED TO SHOW MORE SPACE FOR LICENSE INFORMATION ROWS
+
+LS:
+||~21-Dec-2011 THE CUSTOMER PERMISSIONS FOR PRODUCT DIALOG HAS BEEN EXTENDED
+
+- The 'Customer Permissions for Products' dialog used to set 'Software Version Permissions' for Products and Customers has been extended to include the new 'Untested Service Release' Software Version Permission.
+
+The Customers who have 'Beta' Permissions for a Product will be given 'Untested Service Release' Permissions for that Product in our Data Base, so you will not need to set those permissions for those customers.
+
+LS:
+||~21-Dec-2011 THE NEW 'UNTESTED SERVICE RELEASE' SOFTWARE VERSION HAS BEEN CREATED
+
+- The new 'Untested Service Release' Software version has been added to hsbSoft Products.
+
+The behavior of this new Software version will work independently for each hsbSoft Product.
+
+This new version will be used to replace Beta Versions that are created after a Release version. It means that after a 'Release' version several 'Untested Service Release' versions will be generated before a new 'Release' version is generated.
+
+The Beta versions will be used after a Development version, but they will not be used after a first Release.
+
+Each customer needs 'Untested Service Release' permissions to get access to this new Software version.
+
+LS:
+||~15-Nov-2011 THE LICENSES REPORT DIALOG HAS BEEN EXTENDED
+
+- The Licenses Report dialog has been extended to query new fields about Licenses (License Type, License Restriction Type, Number of Copies, and Number of Days Or Runs).
+Those fields can be edited from the Licenses grid and the changes can be saved to the DataBase.
+
+- The licenses queries can be also filtered by 'License Type' and 'License Restriction Type'.
+
+- The queries for licenses can be done with queries that only check information of the newest fingerprints for each license. The new option 'Only Check information In Newest Finger Prints' can be used to the effect.
+
+- The Excel Report will contain information of new fileds. The Crystal Reports does not include those changes yet because it is too heavy to be created.
+
+LS:
+||~12-Sep-2011 THE LICENSE AUTHORIZATION MANAGER DIALOG HAS BEEN EXTENDED TO ALLOW TO SET THE MAXIMUN NUMBER OF DAYS TO CHECK EXPIRED LICENSES
+
+- The Expired Licenses dates are based on the Fingerprint Expiration Date for each license.
+
+LS:
+||~7-Sep-2011 HSBDATABANK MIGRATES FROM X86 TO ANY CPU
+
+- hsbDataBank presents two new installers, one for x86 (32 Bits) and one for x64 (64 Bits).
+
+LS:
+||~26-Jul-2011 NEW FILTER TO LICENSE AUTHORIZATIONS MANAGER DIALOG
+
+- In The License Authorization Manager dialog you will be able to filter the Licenses by 'License Restriction Type'.
+
+LS:
+||~1-Jun-2011 SOME IMPROVEMENTS TO HSBDATABANK
+
+- In The License Authorization Manager dialog you will get a new field called 'License Expiration Date' in order to know the real date when the hsbCAD is going to expire as standalone or as part of the RDS.
+
+- When you use the Online Activation process through 'License Manager', 'hsbSetup', or 'hsbAppRegistrator.exe' for Rental Licenses with Time Limited as the Restriction Type, a new 'License Maintenance Expiration Date' based on the 'Number of Days Or Runs' will be set.
+
+- Some additional adjustems in Online Activation process.
+
+LS:
+||~1-Jun-2011 CUSTOM SQLS FROM HSBDATABANK WEB APP.
+
+- You will be able to do custom Sqls Queries from hsbDataBank Web. You can access there through the 'Reports' Menu and the 'Custom Sqls' Option.
+
+If you are interested on that, please ask LS to get a Copy of the Data Base Model.
+
+LS:
+||~11-May-2011 NEW FINGERPRINT MODULES.
+
+- The next modules have been added:
+
+TslApiDecryptUser, FastenerAssembly, and BvnConvertor
+
+LS:
+||~3-May-2011 NEW FINGERPRINT MODULES.
+
+- The next modules have been added:
+
+ColdFormedSteel3D, TslApiDecrypt, TslCustom1, TslCustom2, and TslCustom3
+
+LS:
+||~29-Apr-2011 HSBDATABANK WEB APPLICATION HAS BEEN CREATED.
+
+- The hsbDataBank Web Application has been created as a extension of the hsbDataBank Desktop Application.
+
+This new web app. has been created to give easier access to some DataBank information from the web.
+
+Currently, this application can be accessed from some menu options of the hsbDataBak Desktop application, or from web links directly.
+
+The License Transactions Report is the first functionallity that has been added to this web application.
+
+In the future, this web application will be extended with new funcionallity and some upgrades to the current hsbDataBank functionallity.
+
+LS:
+||~29-Apr-2011 LICENSE TRANSACTIONS REPORT HAS BEEN IMPLEMENTED.
+
+- From the Reports Menu, you will have access to the new License Transactions Report. 
+The License Transactions Report has been created as part of the new hsbDataBankWeb Application, so it will be loaded in your default Browser.
+
+LS:
+||~11-Apr-2011 LICENSE TRANSACTION SUPPORT FOR RDS LICENSES HAS BEEN IMPLEMENTED.
+
+- Each time that you manage Authorizations for every license, you will need to do that through of License Transactions which allow to get track of the actions over the License Authorizations.
+
+From the Licenses Administrator dialog you will need to click the "Manage Authorizations" button to operate over the "Number of Available Authorizations" for the Licenses.
+
+In the same way, you will need to manage the authorizations from the new "Licenses Authorization Manager" dialog.
+
+LS:
+||~11-Apr-2011 AUTOMATIC MANAGEMENT OF EXPIRED LICENSES.
+
+- A new dialog called "Licenses Authotization Manager" has been created to show you the list of Expired Licenses for an Office.
+
+The Expired Licenses are considered licenses where the Expiration Date of the latest fingerprints issued for the customers are accomplished or are going to be accomplished in 7 or less days.
+
+This dialog is based on the idea of modifying the number of days or runs, the number of weeks for the fingerprint, and the license Maintenance for Expired Licenses.
+
+The "License Restriction Type (LRT)" affects to the way how some fields are modifed.
+
+If the LRT is TIME_LIMITED, the field of the "Number of Days or Runs" is attached to the field of the "Number of Weeks". It means that if you change the "Number of Days or Runs", the "Number of Weeks" is changed to mantain a relation between them.
+
+In the same way, if the "Number of Weeks" is changed, the "License Maintennace Expiration Date" is changed automatically too. The changes are only in One Way because of allowing to modify the "License Maintenance Expiration Date" independently if you need.
+
+If the LRT is different, the fileds work independently.
+
+This new dialog is intended to manage "RDS Licenses" with "RENTAL MODE" as its priority, but you can use it in other ways.
+
+These options can be adjusted in the future. It depends on you requirements. 
+
+As an additional option, you will be able to modfy other properties of the Expired Licenses.
+
+"This dialog is launched automatically each 7 days with a query of Expired Licenses of your Office." Nevertheless, you can launch it from the "Administration" menu through the "License Authorization Manager" option.
+
+LS:
+||~13-Jan-2011 MINOR CHANGES.
+
+- Some small changes done to the Customer Files Manager dialogs.
+
+LS:
+||~10-Dec-2010 MINOR CHANGES.
+
+- Some minor changes to Customer Files Manager (Control of Valid Names for Customer Files),
+ Finger Print Manager (Warning when previous hardware key on Data Base is different to Hardware Key come from a request Finger Print),
+ and others.
+
+LS:
+||~22-Oct-2010 CUSTOMER FILES MANAGER FUNCTIONALLITY HAS BEEN IMPROVED AND IT IS IN BETA PERIOD.
+
+SCOPE:
+
+- Now you will be able to attach zip files for specific products and customers through the 'Customer Files Manager' dialog located below the 'Utilities' menu.
+
+This functionallity works with the hsbDataBank database, so you can manipulate the zip files and the references of them to the Customers easily.
+
+The Type of zip files that you will have at the beginning are:
+
+- TSL
+- CUSTOM: They are dlls for customers basically
+- CUSTOMER: They are specific zip files for customers with different kind of files. (Help files, Examples, Drawings, Documents, etc.)
+
+
+The file references will be used by hsbUpdater to download the specific zip files for the customers that have been referenced.
+
+The hsbUpdater will control the updating of this kind of zip files automatically. It will work similar as the Product zip files are managed. 
+
+The hsbUpdater will decide where the zip files must go. 
+
+The location where the zip files will be unzipped depend on the Zip File Type.
+
+- The TSL zip files will be unzipped in the TSL folder included inside of the Company folder ("..\hsbCompany\TSL").
+
+- The CUSTOM zip files location to unzip has not been defined yet.
+
+- The CUSTOMER zip files will be able to be unzipped in the location where the customer decides.
+
+In the future we will be able to add more Types if we need.
+
+REMARKS:
+
+- This is a time to test this new functionallity. You can familiarize with this new functionallity during this time. You should report me any remark that you have. TSL guys mainly should test this.
+
+- The hsbUpdater changes to support this new functionallity are in development, so the current hsbUpdater release does not support this functionallity. This means that you must not distribute real files for the customers yet. Currently, the added files will not get by customers from hsbUpdater.
+
+- When a new version of hsbUpdater supports this, a notification email will be send for the people who could be interested on use this new functionallity.
+
+LS:
+||~18-Oct-2010 AUTOMATIC ACTIVATION OPTION ALLOWS TO GENERATE A NEW LICENSE ACTIVATION PROCESS JUST AFTER YOU CHECK IT.
+
+- Now you can generate new License Activation process just after you click the 'Automatic activation' check box without the requirement to Save the Changes first. 
+Before this, you were required to Save the Changes before you generate a new License Activation process. 
+Nevertheless, you must Save the Changes after you generate the new License Activation process in order to the license information be updated and other applications know about that.
+
+LS:
+||~15-Oct-2010 NEW FILTERS TO CUSTOMER NAME OR CUSTOMER PASSWORD WHEN LICENSE ACTIVATION EMAIL REPORTS ARE SENT
+
+- They have been added to sent less information to License Activation processes used for RDS Licenses.
+
+LS:
+||~24-Agu-2010 A NEW ACTIVATION CODE FOR LICENSE ACTIVATION ONLINE IS GENERATED AUTOMATICALLY WHEN YOU CREATE AN UPDATER FINGERPRINT FOR A LICENSE WHICH HAS AUTOMATIC ACTIVATION CHECKED
+
+- If you check the Automatic Activation check box for a license, please Save the Changes before you generate a fingerprint.
+
+LS:
+||~4-Agu-2010 HSBDATABANK WILL ONLY CREATE A NEW ACTIVATION CODE INSTEAD OF CREATE A NEW ACTIVATION CODE AND A NEW FINGERPRINT WHEN YOU CREATE NEW LICENSES WITH SYNERGY DATA AND AUTOMATIC ACTIVATION ENABLED
+
+- The RDS licenses includes Synergy data.
+
+LS:
+||~15-Jul-2010 FINGERPRINT EMAILS WILL INCLUDE THE ACTIVATION CODE TO ACTIVATE THE LICENSE IF THE LICENSE HAS AUTOMATIC ACTIVATION ENABLED IN THE NEXT CASES:
+
+- When you generate new Licenses and send the fingerprints for the customers.
+
+- When you generate Updater fingerprints and send the fingerprints for the customers.
+
+This means that the generation of the activation code will be part of the procedure to generate these kind of fingerprints if the licenses have the Automatic Activation checked.
+
+In these cases, you will not need to generate the activation code independently.
+
+LS:
+||~9-Jul-2010 VISIONREZ SYSTEM SECURITY FROM AMERICAD HAS BEEN INTEGRATED WITH FINGERPRINT SECURITY SYSTEM
+
+- The Security System of VisionRez (Crypt Key Security) has been added to the DataBank structure. 
+
+- It implies that the licenses are going to include new fields related with the VisionRez. 
+
+- In the Licenses Manager the name of those fields will be with blue color. Those fields are not obligatory to contain data.
+
+- The AmeriCAD people will fill out those fields with their data. The HSB people should leave those fields empty for the HSB licenses.
+
+- The licenses which contain data in those fields could be understood as licenses of the RDS product (union of hsbCAD and VisionRez).
+
+LS:
+||~9-Jul-2010 SUPPORT TO AUTOMATIC ONLINE ACTIVATION OF HSB LICENSES HAS BEEN ADDED
+
+- hsbProducts will be able to be activated online by Internet from the hsbSetup very soon. hsbDataBank gives the support to use it.
+
+- In the Licenses Administrator, you will see one check box, and two new buttons related to that.
+
+- If you want to allow that a customer activate his license online, you need to activate the option 'Automatic Activation' for the license, and you need to generate an activation code.
+
+- An activation code is a random string of 20 characters that is associated to the license in the DataBank database. That code allows to Activate the license Online only one time for HSB licenses. For RDS licenses, it is a bit different.
+
+- The activation code and other customer data must be entered in the hsbSetup by the Customer in order to the Activation Online works.
+
+- The hsbSetup will allow the Automatic Activation only if there is Internet Connection in the Customer Machine. 
+
+- The Online Activation will be launched at the end of the installation of a product from the hsbSetup. 
+
+- The Customer could choose to activate or not. The default in hsbSetup is not to activate.
+
+- The activation code is generated using the 'Gener. a New License Activ. to use during Setup, RDS Activ., or Change of hardware' button.
+
+- The activation code allows to activate the License only one time. 
+
+- If the customer wants to change his hardware or needs to reinstall the PC, you must decide if you generate a new activation code for him according to your controls to avoid the improper use of hsbCAD in other machines.
+
+- The License Manager will return the same activation code until it is used.
+
+LS:
+||~9-Jul-2010 SUPPORT TO EXTENDING LICENSE ONLINE HAS BEEN ADDED
+
+- In the Licenses Administrator, you will have the 'Automatic Activation' check box. If it is checked, it allows to extend and create a new fingerprint from the HSB_STARTUP dialog of ITWhsbCAD2011 and newer hsbCAD versions.
+
+- It is so important that you check that option only for customers who have rights to activate hsbCAD.
+
+- The data in the DataBank database that is related to the last fingerprint issued for the license will be used as the base to create the new fingerprint.
+
+- The Activation Online and the Extending License Online will help to avoid the creation of the Request fingerprints and generation of complete fingerprints manually. Nevertheless, you must control what customers should use those methods.
+
+- Please be careful using these methods.
+
+LS:
+||~9-Jul-2010 FINGERPRINT DATA HAS BEEN EXTENDED
+
+- You will see new fields in the Fingerprints. 
+
+Some are used hsbCAD and VisionRez and other are used only by VisionRez.
+
+The next fields are used by hsbCAD and VisionRez:
+
+- Company or Customer Name
+- Contact
+- Phone Numbers
+- Order Id (known as Activation Code)
+
+The next fields are only used by VisionRez:
+
+- Request Code
+- Authorization Code
+
+LS:
+||~9-Jul-2010 NEW ITW AND VISIONREZ MODULES
+
+- New modules have been added to the RDS product. If the license includes one or more ITW or VisionRez modules, the fingerprint will be generated with a Synergy logo instead of the house logo.
+
+LS:
+||~27-Apr-2010 NEW MODULES ADDED
+
+LS:
+||~8-Apr-2010 SMALL BUG FIXES TO CONVERT REQUEST FINGERPRITNS
+
+LS:
+||~11-Mar-2010 FINGERPRINT GENERATION DIALOG HAS BEEN CHANGED
+
+- The option to Set automatically a License Maintenance period for a license associated to a fingerprint that is used when you create a fingerprint has been set as unchecked by default.
+
+It is set in that way to avoid that people who create a fingerprint forget to review if they must set a license maintenace period for the license.
+
+LS:
+||~11-Mar-2010 NEW CUSTOMER OVERVIEW DIALOG
+
+- A new dialog called "Customer Overview" has been created to review information about the packages and the licenses that a customer has.
+
+This dialog is created with the flexibility to be extended in the future.
+
+It can be accessed from the Administration menu.
+
+LS:
+||~11-Mar-2010 LICENSES ADMINISTRATOR DIALOG HAS BEEN EXTENDED
+
+- There is a new flag for each license which is called "Automatic Activation"
+
+In the near future licenses which have enabled a the flag called "Automatic Activation" will be able to be activated online from the new hsb products as hsbCAD2011.
+
+The options to register online will be "Extend the license" and "Activate the License".
+
+- There is a new button called "Generate Activat. Code to use during Setup or change of hardware".
+
+This new button will generate an activation code automatically. This activation code will allow to Activate a License online if the license has the Automatic Activation flag enabled.
+
+This activation code must be used the first time that the customer is going to install any product through this license or if the customer's hardware key has changed. It means that it will be used if the customer changes his hard disk.
+
+This activation code will be unique for each license activation process. 
+
+The activation code will be new for a license only if there is not any license activation process pending.
+
+A license activation process will be considered as finished when the customer has registered its hsbProduct with this activation code.
+
+The Licenses report dialogs and reports have been extended to include the new license properties in the queries.
+
+LS:
+||~11-Mar-2010 INTERNAL CHANGES
+
+- A lot of strong changes has been done in the internal funcionallity of the hsbDataBank to implement the only registration mentioned before. They have been tested deeply.
+
+LS:
+||~12-Jan-2010 CHANGES TO THE SITE LICENSES ADMINISTRATION
+
+- When you modify the information associated to a license of a customer who has site license permission, hsbDataBank will ask if you want to save these changes to the current license and to other site licenses or only for the current license.
+
+This change will allow to update information of site licenses only when you wish.
+
+Also, you can choose if you send fingerprints for all of the licenses where the information was updated or only for the current license.
+
+LS:
+||~12-Jan-2010 LICENSE MAINTENANCE PERIOD CAN BE GENERATED JOINTLY WITH THE CREATION OF COMPLETE FINGERPRINTS
+
+- When you generate a new complete fingerprint, you will be able to set a license maintenace period to the associated license.
+
+The License Maintenance period can be based on the fingerprint expiration date or can be set manually.
+
+LS:
+||~12-Jan-2010 LICENSES INFORMATION HAS BEEN EXTENDED
+
+- The licenses will include the new fields 'License Mode' and 'Last Version Allowed'.
+
+The 'License Mode' can be Normal or Rental. More modes can be added in the future.
+
+The 'Last Version Allowed' refers to the maximun version of the hsb Product that the customer is able to use.
+The 'Last Version Allowed'has the format [Major Version],|[MinorVersion]|. Eg: 15,4
+The Minor Version is optional, so the Last Version allowed could contain only the Major Version. Eg: 15
+
+If the 'Last Version Allowed' is not set, the value will be -1.
+If the Version only contains the Major Version, the value of the Minor version will be showed in the dialogs as -1.
+
+The 'License Mode' will be part of all of the license reports.
+
+The 'Last Version Allowed' will be only part of the Excel report.
+
+- The registers of the created fingerprints will include the 'Last Version Allowed' value of the current license used at the moment that the fingerprint is created. 
+
+- You can edit the 'License Mode' and the 'Last Version Allowed' values easily from the Licenses Report.
+
+LS:
+||~21-Dec-2009 THE CUSTOMER OFFICE PACKAGE MANAGER DIALOG HAS BEEN INCLUDED
+
+This dialog will allow to assign or remove the office packages to customers.
+
+You will be able to save the changes to the database or cancel them.
+
+LS:
+||~14-Dec-2009 THE NEW CONCEPT OF MODULE PACKAGES BY OFFICE FOR CUSTOMERS IS BEING INCLUDED.
+
+This new concept allows to manage packages of modules to customers.
+
+In order to achieve this some new dialogs will be created and included during the next weeks.
+
+- The new Module Packages Manager dialog has been included. 
+
+You will be able to create, edit, and remove existing packages from this dialog.
+
+The packages will be assigned to offices. A package can belong to seldom offices.
+
+You will be able to save the changes to the database or cancel them.
+
+LS:
+||~14-Dec-2009 CUSTOMER INFORMATION HAS BEEN EXTENDED
+
+- The Customer Information has been extended to include Customer Type, Customer Country, Customer, City, addresses, email addresses, phone numbers, contacts, and additional information.
+
+- The Customer and Find Customer dialogs have been extended to manage the new information.
+
+- The reports has been extended to include the Customer Type filter.
+
+LS:
+||~25-Nov-2009 NEW FIELDS IN LICENSES DIALOG
+
+- The "Is payed" field has been removed from the License dialog for ever.
+- The "License date buy" field has been changed to be the "Installation date" field.
+- The "Payment due by" field has been changed to be the "Delieverd date" field.
+- The new "Delivery date" field can be set as empty if you need.
+
+LS:
+||~25-Nov-2009 LICENSE REPORT MODIFICATIONS
+
+- The new fields "Installation date" and "delivered date" will be part of the reports.
+- The Excel report will be allowed to print licenses information with one module per line.
+- The "Is payed" field has been removed for always because it will not be used anymore.
+- You can modify the "delivered date" information for licenses from the Licenses Report dialog.
+
+LS:
+||~21-Oct-2009 New modules to distribute office Content have been added.
+
+- The new modules are: hsbContentUK, hsbContentDACH, and hsbContentIT
+
+LS:
+||~21-Sep-2009 Change To allow creation of complete FINGERPRINTS from REQUEST FINGERPRINTS that are assigned to any existing license.
+
+LS:
+||~27-Jul-2009 Change of Microsoft.Office.Interop.Excel.dll version in the Setup.
+
+LS:
+||~20-Apr-2009 Remove Hardware from current License(s).
+
+- A new option has been added to the 'Finger Print Management' dialog. 
+
+When you drag and drop a 'request fingerprint' to the 'hsbDataBank main dialog', you can take some actions over the request FingerPrint.
+One of the actions allows to assign the request information to any license of any customer whenever the hardware key that is associated to the 'request fingerprint' has not been assigned previously to any license.
+In the case that the hardware key has been assigned previously to any license, and there is any strong reason because you wish to assign the hardware to other license, you can use the button 'Remove Hardware from Current License(s)' to remove the associations of the hardware key to the current license(s).
+After you use this option, you can assign the hardware key to any license of any customer.
+hsbDataBank saves the information about the hardware removed to future queries.
+Additionaly, when you use this option, you will be able to choose if you want to set the license(s) associated to the hardware as inactive.
+
+LS:
+||~7-Apr-2009 Optimizing queries response time for License report.
+
+LS:
+||~6-Apr-2009 License maintenance state and filters have been added to License Reports.
+
+- Licenses Maintenance Report allows to look for licenses which have a maintenance period registered or do not have any maintenance period registered.
+
+- Printable reports have been extended with license maintenance period.
+
+LS:
+||~30-Mar-2009 Some changes to reports.
+
+- Licenses Maintenance Report allows to export data to xls format of Microsoft Excel.
+
+- Message of DataBase login was deleted.
+
+LS:
+||~26-Mar-2009 Export to Excel option has been added to License report.
+
+It is advisable to be used in the next cases: 
+
+- For big reports. They take more time to be created with the default report.
+
+- To edit information of the report.
+
+LS:
+||~23-Mar-2009 Licenses Report dialog and licenses report printable document have been extended.
+
+- License Report dialog allows to make additional queries by modules, by license maintenance period, and by fingerprint states.
+
+- You can review the license modules and the license states according to the information of their fingerprints.
+
+There are the next license states:
+
+->Registered: There are one or more fingerprints enabled(not expired) and associated to a unique hardware key.
+
+->Overregistered: There are seldom fingerprints enabled(not expired) which are associated to different hardware keys.
+
+->Expired: There are only expired fingerprints associated.
+
+->Unregistered: There are not fingerprints associated.
+
+- Additionaly, you can update the license maintenance period for different licenses and edit description for licenses from this dialog.
+
+When you try to save changes done to the data, you will receive a message which describes the changes and asks you if you want to the save the information.
+
+- License report printable document has been improved to show the new information added to the licenses report dialog, to include the list of modules for each license that is part of the query, and to include at the end of the report a summary of the number of licenses that contain each of the modules.
+
+LS:
+||~3-Mar-2009 Little changes to create license.
+
+LS:
+||~25-Feb-2009 Description for licenses has been added.
+
+- From the License dialog you will be able to edit a description for the selected license. The license description will be able to be reviewed and edited from the License Report in a future version.
+
+MQ:
+||~02-Feb-2009 Reading finger prints
+
+- The bug of Japanese characters in the file path was solved.
+
+LS:
+||~13-Oct-2008 Extension of Licenses Report
+
+- Licenses Report has been extended to do searches by licenses which contain finger prints with specific states. For instance, you can search licenses which contain seldom active fingerprints that are associated to different hardware keys in order to take care of them.
+
+LS:
+||~3-Sep-2008 License Administrator
+
+- If you remove any module from a product, you will be asked if you want to remove the associations of the module to other products. If you click Yes, the associations of the module will be removed from other products automatically; therefore the association of the module to the license will be removed. In previous versions you needed to remove the module from each product in order to remove the association of the module to the license.
+
+MQ:
+||~11-Aug-2008 License Report Module
+
+- Bug was Fixed for the License Report in the Find Filter.
+
+LS:
+||~9-Jul-2008  hsbOEM2009 MODULE HAS BEEN ADDED
+
+- For each OEM2009 toggle turned on in the hsbDatabank, Hsb-Soft will have to pay for it to Autodesk. Turning on this toggle in the fingerprint allows the user to unlock the OEM version. Only turn this toggle on if this is intended.
+
+MQ:
+||~25-Jun-2008 
+
+- Bug Fixed to License report in "Active searched by fingerprint date expiration" filter
+
+LS:
+||~6-Jun-2008 
+
+- A bit changes to design of forms
+
+MQ:
+||~5-Jun-2008 CHANGES TO LICENSE REPORT
+
+- A new filter to get a report of licenses by product has been added
+
+LS:
+||~7-Apr-2008 BUG FIX
+
+- Uploading files to FTP server below hsbDownlaod/hsbCustomer
+
+LS:
+||~13-Mar-2008
+
+- If you process a request fingerprint and the hardware key of the request fingerprint is differnet to the hardware key registered in the database to the license that you assing it, you will get a notification in the fingerprint generation mode dialog because it is not normal. You must be sure if the customer needs to do that in order to allow it. Customer could try to use the license in more than one computer. You must review that he uses it only in one computer.
+
+MQ:
+||~07-Feb-2008 BUG FIX
+
+- Saving information for all customers' licenses who have permissions to site license.
+
+LS:
+||~31-Jan-2008
+
+- Main form is sizable
+- Bug fixed to fingerprint generation after you create a new license
+
+LS:
+||~8-Nov-2007 NEW PRODUCT MODULE STRUCTURE
+
+- hsbDataBank has been changed to work with the new Product and Module structures that hsbCAD is going to release soon. hsbDataBank is going to continue managing licenses by modules. 
+
+The products that you will assign for a customer are going to depend on the modules that you assign to the license. For example, if you add the hsbTimber module to the license, the customer will have the hsbCAD12 product.
+
+hsbCAD12, hsbCAD13, an other hsbCAD versions are going to be considered as diferent products, and these products can have different modules.
+
+hsbDataBank is going to allow you that you select modules by product, so you can know what product and modules you are giving for a license.
+
+*****IMPORTANT*****
+
+- A product can contain some modules
+- A module can belong to different products
+
+If you assign a module that is used by different products to a specific product, you will assign on the license all the products that are associated with the module.
+
+LS:
+||~6-Jul-2007 BUG FIXes
+
+- The bug fix for reading customer fingerprint information has been fixed, and the bug for assigning modules to a new license from an existing license has been fixed too.
+
+MQ:
+||~21-Jun-2007 BUG FIX
+
+- The bug email_body.rtf with images is fixed. When hsbDataBank sends a email.
+
+LS:
+||~30-Mar-2007 CUSTOMER PERMISSIONS BY PRODUCT
+
+- A new form to assign customer permissions for product has been added. It is located in the Administration Menu
+
+MQ:
+||~12-Feb-2007 BUG FIX
+
+- A bug fix to synchronize the email_body.rtf with sent email
+
+LS:
+||~31-Jan-2007 STANDAR MESSAGE BOXES SET
+
+LS:
+||~20-Dec-2006 BUG FIX
+
+-  A bug fix to expiration dates assigned to the fingerprints has been solved. At the moment, it assigns enough days to the fingerprint according to the weeks selected.
+
+LS - MQ:
+||~30-Nov-2006 CUSTOMER FILES
+
+- If you upload customer files to the server using the "Upload HsbCAD Customer Files" menu option, you must upload them for the "hsbCustomer" folder, so hsbUpdater will be available to download them. 
+
+LS - MQ:
+||~6-Oct-2006 A DESCRIPTION FOR EACH MODULES HAS BEEN ADDED
+
+LS - MQ:
+||~20-Apr-2006 INTERNAL CHANGES IN THE CODE:
+
+- When request fingerprints are send by the customer, it contains the AutoCAD Version and HsbCAD version. This is available since hsbCAD 12.0.86 (April 6,2006).
+This information is stored in the hsbDatabank. It will allow us in the future to give us a rough idea of the versions of our user base.
+
+- In the FingerPrint Service Administrator you will be able to read messages about the information that will be generate in the Complete FingerPrints
+
+LS - MQ:
+||~19-Apr-2006 INTERNAL CHANGES IN THE CODE:
+
+LS - MQ:
+||~18-Apr-2006 SITE LICENSES, CUSTOMER FILES AND OTHERS:
+
+- When you do a change to a license of a customer that has site license like license information, licenses modules, license maintenance, hsbDataBank automatically will update the information to all licenses that the customer has
+ and will generate the new Fingerprints to each of the site licenses
+
+- hsbDataBank permits to upload a customer file to multiple customers from Utilities\Upload HsbCAD Customer Files
+
+- From FingerPrint Service Administrator module you will be able to create Setup or Updater FingerPrints
+
+- hsbDataBank updating notification has been modified to know the new version available in the server
+
+KR:
+||~5-Apr-2006 New modules added to fingerprint
+hsbHundeggerPx: will enable in the near future hundegger P10 cnc generation
+hsbBtl: will enable in the near future BTL cnc generation
+hsbMultiWallComposer: indicates the customer has the right to use the multiwall composer
+hsbStacking: indicates the customer has the right to use the stacking program
+
+hsbDbaseExportCSV, hsbDbaseArdis, hsbDbaseHMOpti, hsbDbaseGrecon are hsbDbase specific modules
+hsbOptiSawHM, hsbOptiSawOmnimiser: are hsbOptiSaw specific modules
+
+MQ && LS:
+||~27-Mar-2006 NEW VERSION WORKS IN VS2005:
+
+- HsbDataBank has been migrated to Visual Studio 2005. We will have more funcionallity to work with reports.
+
+MQ:
+||~27-Mar-2006 NEW LICENSES REPORT:
+
+- A new report has been added to query the licenses information. You can set some filters by customer, by office, by limited date pay, etc.
+  You will be able to change fastly the basic license information as office, site option, lite version, etc
+  You will be able to print a report to Licenses Information or a report to FPs associated to one license.
+
+
+  How to do:
+
+  - Open the Reports Menu and select Licenses option
+  - In the License filters to search set the filters that you wish and click Find
+  - In the Licenes Information grid review the information and if you wish you can change the basic information and click Save Changes
+  - If you need to change more detail information about a license as modules you can double click the license and the Licenses Administrator module will be open
+  - If you wish to print a report for licenses click Print Lics. Report
+  - If you wish to print the FPs to a license click Print FPs. Report
+
+||~08-Mar-2006 LICENSES INACTIVES:
+
+- To licenses that are not being used or were created by mistake you have a new funcionallity in the Licenses Administrator module. You can check the license as inactive. When a license is inactive hsbdataBank doesn´t generate Finger Prints to it.
+
+If you need you can return the license as active. 
+
+
+||~02-Mar-2006 NOTIFICATIONS ABOUT NEW HsbDataBank VERSIONS:
+
+- In the future when hsbDataBank starts, it will review if there is a new version of hsbDataBank in the web server. In the case that exists one the app will notify you with a popup message in the right corner of the screen.
+
+
+||~01-Feb-2006 CUSTOMER FILES TO HsbCAD:
+
+- A new funcionallity to upload Customer hsbCAD files to the FTP Server has been created.
+  You can upload one or more zip files with the Customer files (Tsls, Dwg files, etc.). Those files
+  will be able to downloaded by the specific customer from hsbUpdater 
+
+  To this funcionallity each customer should have a particular File Key. That key permits to management the Customer hsbCAD files. 
+  (The Customer File Key can be created in the Uploading process or in the "Customer Admin module" when you
+  create a new customer or when you update the Customer Information.)
+
+  The files will be saved on a Download Site that you select (E.g. "English_Beta") into a folder with the same name as the Customer file key. The Sites are the same that hsbUpdater uses.
+
+  When the Customers will use the hsbUpdater they will have their Customer zip files as part of the files list that they can download.
+
+  By preference The zip file names to upload should have the following standar:
+  - If the file go to the Company folder the zip name should be "Cmp_[Name]" (E.g. Cmp_TSL)
+  - If the file go to the HsbCAD folder the zip name should be "Hsb_[Name]" (E.g. Hsb_TSL)
+  
+  If hsbUpdater read files with those names. It will download the files to the right folder
+
+  If hsbUpdater read files with different names. It will ask the customer to select the local folder where he wants to save the zip file
+
+How to do:
+
+  - In HsbdataBank clic the "Utilities" menu and select the "Upload HsbCAD Customer Files" option
+
+  - Click the "Select Customer" button to choose the Customer. if the Customer doesn´t have a File Key,
+    hsbdataBank will ask you to enter a File Key
+
+  - Select the Upload Site where the files will be saved. Remember that when the customer will use hsbUpdater he will find the files in that site
+
+  - Add the zip files that you wish with the standar names if it is posible
+ 
+  - Upload the files. HsbDataBank will show you the process result in the Status Box
+
+
+||~01-Feb-2006 CUSTOMER FILES TO HsbCAD:
+
+- From this version you will find the hsbDataBank version in the Title Bar
+
+
+||~23-Ene-2006 DONGLES FINGER PRINTS:
+
+- A new type of FingerPrint called Dongle Finger Print has been created. It works just like any other fingerprint, but it
+uses the hardware information from the Dongle instead of from the computers hard drive. Whenever the user wants to enable
+hsbCAD through a dongle, he must use a fingerprint that contains the dongles hardware. So if the dongle is moved from one
+computer to the other, the fingerprint.bmp must follow (or be present). Each dongle should be attached to one, and only one
+license in the hsbDataBank.
+
+How to issue a dongle fingerprint:
+
+You can create a dongle FingerPrint to a new license or to an existing license
+
+- To the first time you should follow the following steps:
+	- Connect the dongle USB to the computer you run hsbDataBank on.
+	- Open the Licenses Administrator module
+	- To a new license, Create a new license and click "Save changes"
+
+	- To an existing license, Select the license and click "Generate FingerPrint
+	for dongle attached to this computer. 
+	Dongle needs to be send together with fingerprint to the customer"
+
+
+	- Follow the next steps and the Dongle FingerPrint will be created"
+	(the AutoCadSN, ComputerName and ComputerUsername will have the value of "Floating")
+ 
+- To the next times you will be able create a Dongle FP from a new USB dongle o from
+	an existing dongle FP registered in the DataBase similar as if you create a Complete Finger
+	Print
+
+- The requests from a Dongle FP can be processed normally as the other requests
+
+||~23-Ene-2006 Mail Notifications to Request FP Processed:
+
+- The email addresses in the CC field wil be remember in your computer
+  It will help you to notify the Request FP processed to your office coworkers. 
+	
+||~23-Ene-2006 Remember password:
+
+- hsbDataBank always remember your Username and will be able to remember your
+password if you wish. 
+
+LS:
+||~17-Ene-2006 FINGER PRINT NAMES:
+- The FingerPrints generated by hsbDataBank will be created with the format of the name
+  as fingerprint_<lic_id>
+
+||~17-Ene-2006 CONTROL ACCESS:
+- HsbDataBank has a new access control. You can access with a user and password.
+  Authorized users will be able to create new customers.
+  You can change your password if you wish.
+
+LS:
+||~12-Ene-2006 CONVERSION REQUETS:
+
+- A new process to Management Conversion Requests FingerPrints (MCR FP) has been created.
+  
+  The process read from a new type of FP "Convert_Request" the Information
+  of an AutoCad drawing with hsbCAD limited enties (included a key to convert them to hsbCAD
+  full entities) and send by mail the key to the customer
+
+  How to do: If you drag and drop a Convert Request FP to the main window you will get the
+  FP Management screen with the information about the license and customer and
+  the option "Process Conversion Request". 
+
+  You can click Continue and the Conversion Request Management screen will be showed
+  You can review the information of the Conversion Request anc click Continue to
+  save that information in the DataBase and generated an e-mail with the key
+
+  If you would like to load an automatic text to the mail. You can create two files
+  in your Lang folder into hsbDataBank root folder. The files should call conversion_request_sub.txt
+  and conversion_request_body.rtf. If you do that, please send the files to: luis.salazar@hsbcad.com 
+
+- A new Conversion Requests Report has been created. You can access it from Reports Menu
+  In the screen to the report you will be able query the Conversions Requests by 
+  payment State and you will be able update the Conversion Payment state too.
+
+MQ:
+||~06-Ene-2006 MANAGEMNET SITE LICENSES:
+- Licenses Screen allows to assign the new hsbServerLM module only to customers with site licenses
+
+KR:
+||~29-Dec-2005 IMPORTANT CHANGE: Fingerprint bitmaps changed.
+A number of fingerprint bitmaps have been changed: LT, setup, update, request have now new reference bitmaps.
+This allows easy identification of the type of bitmap. The activation bitmap has been left unchanged.
+Of course customers that do not have an hsbCAD version newer then 12.0.44 will not be able to interprete the
+new setup bitmap. So they should be given either an old bitmap or should download the new hsbCAD.
+The activation bitmap will still work for older hsbCAD versions.
+You can still generate the old bitmaps with the old hsbDataBank application if needed.
+
+KR:
+||~29-Dec-2005 A new type of request fingerprint to convert limited entities to full.
+When hsbCAD is running in LT mode, beams and tools generated carry a "limited" flag.
+These limited entities cannot be ouputted to CNC machines, or outputted to bill of material.
+When a drawing is openend in a hsbCAD full version, that contains such limited entities,
+the user can request a key to convert these limited entities into unlimited entities.
+To convert these limited entities, a convert request fingerpint is send to hsb office.
+The hsbDatabank application still needs to be modified such that it can generate
+an unlock key for such a request.
+
+MQ & LS:
+||~30-Nov-2005 hsbDataBank:
+
+- Permits assing a request Fingerprint to a new or an existing license
+
+- Permits to review the generator Time of a request FingerPrint
+
+- The new versions of hsbdatabank can be installed without uninstall the old versions 
+
+LS & MQ:
+||~21-Nov-2005 hsbDataBank:
+
+- Permits to copy the modules of a customer license to create a new license
+
+- Permits drag and drop a fingerprint, Assign a License and edit the customer and modules of the license
+
+LS:
+||~10-Nov-2005 hsbDataBank:
+
+- The User manual has been updated. Please read it
+
+- You can Request Authorization for FingerPrint Generation from Utilities Menu
+
+- You can access the Internal document on License management from Help menu
+
+LS:
+||~09-Nov-2005 hsbDataBank:
+
+- The hsbDataBank user can review the modules of each licenses that a customer have from the Finger print Management module
+
+- The User Manual is ready. You can read it from "Help\User Manual" menu or if you press Ctrl+U
+
+MQ:
+||~07-Nov-2005 hsbDataBank: Implementation of the screen for release notes
+
+LS:
+||~27-Oct-2005 hsbDataBank: It is launched with the next modules:
+
+- Customers
+- Licenses
+- Finger Prints
+- Licenses Mainteniance
+- Licenses Mainteniance Report
+- Finger Print Management

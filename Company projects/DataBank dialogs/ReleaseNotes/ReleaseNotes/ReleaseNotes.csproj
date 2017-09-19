@@ -4,15 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{72FD5123-5123-4E97-A323-A3FB42E23441}</ProjectGuid>
+    <ProjectGuid>{FDC33478-02B9-4A29-B9AA-8661C48D4ACC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DataBankUi</RootNamespace>
-    <AssemblyName>DataBankUi</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>ReleaseNotes</RootNamespace>
+    <AssemblyName>ReleaseNotes</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
-    <TargetFrameworkProfile />
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -23,7 +23,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,15 +32,8 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MaterialDesignColors">
-      <HintPath>..\..\..\..\..\..\Desktop\hsbWork\MaterialDesignInXamlToolkit-master\MaterialDesignInXamlToolkit-master\MaterialDesignThemes.Wpf\bin\Debug\MaterialDesignColors.dll</HintPath>
-    </Reference>
-    <Reference Include="MaterialDesignThemes.Wpf">
-      <HintPath>..\..\..\..\..\..\Desktop\hsbWork\MaterialDesignInXamlToolkit-master\MaterialDesignInXamlToolkit-master\MaterialDesignThemes.Wpf\bin\Debug\MaterialDesignThemes.Wpf.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -49,28 +41,19 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="WPF.MDI">
-      <HintPath>..\..\..\..\..\..\Desktop\hsbWork\Dll\WPF.MDI\bin\Debug\WPF.MDI.dll</HintPath>
-    </Reference>
-    <Reference Include="WPFControls">
-      <HintPath>References\WPFControls.dll</HintPath>
-    </Reference>
-    <Reference Include="WPFMwiWindowsCore">
-      <HintPath>References\WPFMwiWindowsCore.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="RebonsManager.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -79,7 +62,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DatabankDialogId.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -103,71 +85,19 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Context menu icon 1.png" />
-    <Resource Include="Images\Context menu icon 2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\License.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Fingerprint.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\AddFingerprint.png" />
-    <Resource Include="Images\FindFingerprint.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Add license.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\License administrator.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Licenses.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\License maintenance.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Customers.png" />
-    <Resource Include="Images\Package.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Reports.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Package manager.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\License report.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\License maintenance report.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Customers office packages.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Customers context menu.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Costumers permissions.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Costumers file manager.png" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\hsbDataBank.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Windows.png" />
+    <Resource Include="hsbDataBank_ReleaseNotes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

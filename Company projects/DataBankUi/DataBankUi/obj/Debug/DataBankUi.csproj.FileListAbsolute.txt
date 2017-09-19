@@ -55,3 +55,16 @@ C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\Da
 C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.exe
 C:\Users\Rafael Guerra\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\DataBankUi.pdb
 >>>>>>> 978e7166f91e5997d9b3175fd5758bd9cbb82bfb
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\WPF.MDI.dll
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\WPF.MDI.pdb
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\Home.g.cs
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\Home.baml
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\MaterialDesignColors.dll
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\MaterialDesignColors.pdb
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\WPFControls.dll
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\obj\Debug\Test.g.cs
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\DataBankUi.exe.config
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\WPFMwiWindowsCore.dll
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\hsbUser\Documents\GitHub\ELearning\Company projects\DataBankUi\DataBankUi\bin\Debug\MaterialDesignThemes.Wpf.xml
